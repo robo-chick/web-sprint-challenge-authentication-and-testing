@@ -4,7 +4,7 @@
   "description": "Authentication Sprint Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_ENV= testing jest",
+    "test": "cross-env NODE_ENV=testing jest",
     "server": "cross-env NODE_ENV=development nodemon index.js",
     "start": "cross-env NODE_ENV=development index.js"
   },
